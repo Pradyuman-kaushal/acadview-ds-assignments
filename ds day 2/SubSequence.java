@@ -15,8 +15,9 @@ class SubSequence {
   public static void main(String[] args) {
     Scanner o=new Scanner(System.in);
     s u=new s();
-    String str="xyz";
-    System.out.println("Substring of xyz:");
+    System.out.println("Enter string:");
+    String str=o.nextLine();
+    System.out.println("Subsequence of string:");
     u.substr(str,str.length());
   }
 }
